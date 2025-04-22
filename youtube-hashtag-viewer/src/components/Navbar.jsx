@@ -8,20 +8,6 @@ const Navbar = () => {
       <div className="text-2xl font-bold">
         <img src={soul} alt="Logo" className="h-10 inline-block mr-2" />
       </div>
-
-      {/* Links */}
-      <ul className="flex space-x-6 text-lg font-medium">
-        <li>
-          <a href="#" className="hover:text-yellow-300 transition">
-            Home
-          </a>
-        </li>
-        <li>
-          <a href="#contact" className="hover:text-yellow-300 transition">
-            Contact
-          </a>
-        </li>
-      </ul>
     </nav>
   );
 };

@@ -30,3 +30,6 @@ function App() {
 }
 
 export default App;
+
+// This code is a React component that serves as the main entry point for a YouTube hashtag viewer application. It imports necessary components and sets up the main structure of the app, including a navigation bar, a footer, and a video feed section. The user can input a hashtag to fetch and display related YouTube videos. The component uses state management to handle the current hashtag input by the user.
+// The `App` component is styled using Tailwind CSS classes for a modern and responsive design. The `VideoFeed` component is responsible for fetching and displaying videos based on the provided hashtag. The application is designed to be user-friendly, allowing users to easily search for and view videos related to specific hashtags on YouTube.
